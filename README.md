@@ -4,7 +4,7 @@ This project uses biomedical voice measurements to classify whether a patient ha
 
 ## Dataset
 
-- **Source:** [Parkinson's Disease Data Set](https://www.kaggle.com/) (`parkinsons.data`)
+- **Source:** [Parkinson's Disease Data Set](https://www.kaggle.com/datasets/vikasukani/parkinsons-disease-data-set) (`parkinsons.data`)
 - **Description:** The dataset contains a range of biomedical voice measurements from individuals, some of whom have Parkinson's disease (PD). Each row corresponds to one voice recording, and each column is a particular voice measure.
 - **Target column:** `status` — 1 indicates the presence of Parkinson's disease, 0 indicates a healthy individual.
 - The `name` column (patient/recording identifier) is dropped before modeling since it carries no predictive value.
